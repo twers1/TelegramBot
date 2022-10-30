@@ -1,6 +1,6 @@
 const {Telegraf} = require('telegraf');
 
-const bot = new Telegraf('5794648410:AAEQZQt9vcCXOU8PwWakiyXBlFeeqLzK2Rs');
+const bot = new Telegraf('yourTOKEN');
 
 bot.command('help', (ctx) => {
     ctx.reply(`
