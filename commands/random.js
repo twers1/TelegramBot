@@ -1,6 +1,6 @@
 const {Telegraf, Markup} = require('telegraf');
 
-const bot = new Telegraf('5794648410:AAEQZQt9vcCXOU8PwWakiyXBlFeeqLzK2Rs');
+const bot = new Telegraf('yourTOKEN');
 
 function getRandomInt(min, max) {
     min = Math.ceil(min)
